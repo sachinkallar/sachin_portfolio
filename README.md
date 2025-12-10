@@ -1,16 +1,13 @@
-# sachin_portfolio
+👋 Hi, I'm Sachin
 
-A new Flutter project.
+Flutter Developer focused on building scalable apps for healthcare, EMR systems, and AI-powered workflows.
 
-## Getting Started
+🔧 Skills
 
-This project is a starting point for a Flutter application.
+Flutter / Dart (Web + Mobile), BLoC, GetIt, AutoRoute
 
-A few resources to get you started if this is your first Flutter project:
+Healthcare Tech: DICOM viewer,
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Backend / AI: Flask, OCR, PDF/Image parsing, Whisper, Transformers (T5, Longformer, Qwen, Phi-3)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Architecture: Modular apps, performance optimization, Docker
