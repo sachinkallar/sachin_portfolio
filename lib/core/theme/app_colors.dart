@@ -26,4 +26,14 @@ abstract class AppColors {
 
   // Surface Colors for Cards/Dialogs
   static const Color surface = Color(0xFF1F2937);
+
+  // Glass UI Colors
+  static const Color glassBorder = Color(0x4DFFFFFF); // 30% White
+  static const Color glassSurface = Color(0x1AFFFFFF); // 10% White
+  static const Color glassShadow = Color(0x66000000); // 40% Black
+
+  // Liquid Blob Colors
+  static const Color blob1 = Color(0xFF7C4DFF); // Deep Purple
+  static const Color blob2 = Color(0xFF00E5FF); // Cyan
+  static const Color blob3 = Color(0xFFFF4081); // Pink
 }

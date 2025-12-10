@@ -7,13 +7,14 @@ class AppTheme {
     return ThemeData(
       useMaterial3: true,
       brightness: Brightness.dark,
-      scaffoldBackgroundColor: AppColors.primaryBackground,
+      scaffoldBackgroundColor:
+          Colors.transparent, // Important for Liquid Background
       primaryColor: AppColors.primaryAccent,
       colorScheme: const ColorScheme.dark(
         primary: AppColors.primaryAccent,
         secondary: AppColors.secondaryAccent,
-        surface: AppColors.surface,
-        background: AppColors.primaryBackground,
+        surface: AppColors.glassSurface, // Use glass surface
+        background: Colors.transparent, // Use glass background
         error: AppColors.error,
         onPrimary: Colors.black,
         onSecondary: Colors.black,
@@ -71,7 +72,7 @@ class AppTheme {
       ),
       iconTheme: const IconThemeData(color: AppColors.textPrimary),
       dividerTheme: const DividerThemeData(
-        color: AppColors.surface,
+        color: AppColors.glassBorder, // Glass border color
         thickness: 1,
       ),
     );
